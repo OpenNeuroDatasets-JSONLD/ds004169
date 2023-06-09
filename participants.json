@@ -1,12 +1,24 @@
 {
   "participant_id": {
-    "Description": "Participant identifier"
+    "Description": "Participant identifier",
+    "Annotations": {
+      "IsAbout": {
+        "TermURL": "nb:ParticipantID",
+        "Label": ""
+      }
+    }
   },
   "family_id": {
     "Description": "Family identifier (participants belonging to the same family share a family_id)"
   },
   "age": {
-    "Description": "Age (in years, rounded down) at session 1"
+    "Description": "Age (in years, rounded down) at session 1",
+    "Annotations": {
+      "IsAbout": {
+        "TermURL": "nb:Age",
+        "Label": ""
+      }
+    }
   },
   "age_ses02": {
     "Description": "Age (in years, rounded down) at session 2"
@@ -16,6 +28,22 @@
     "Levels": {
       "M": "male",
       "F": "female"
+    },
+    "Annotations": {
+      "IsAbout": {
+        "TermURL": "nb:Sex",
+        "Label": ""
+      },
+      "Levels": {
+        "F": {
+          "TermURL": "snomed:248152002",
+          "Label": ""
+        },
+        "M": {
+          "TermURL": "snomed:248153007",
+          "Label": ""
+        }
+      }
     }
   },
   "handedness": {
@@ -43,6 +71,26 @@
     "Levels": {
       "1": "1000 milliseconds",
       "2": "1500 milliseconds"
+    },
+    "Annotations": {
+      "IsAbout": {
+        "TermURL": "nb:Assessment",
+        "Label": ""
+      },
+      "Levels": {
+        "1": {
+          "TermURL": "nb:MissingValue",
+          "Label": ""
+        },
+        "2": {
+          "TermURL": "nb:MissingValue",
+          "Label": ""
+        },
+        "NaN": {
+          "TermURL": "nb:MissingValue",
+          "Label": ""
+        }
+      }
     }
   },
   "group": {
