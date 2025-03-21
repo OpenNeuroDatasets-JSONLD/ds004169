@@ -81,16 +81,6 @@
     "Levels": {
       "1": "1000 milliseconds",
       "2": "1500 milliseconds"
-    },
-    "Annotations": {
-      "IsAbout": {
-        "TermURL": "nb:Assessment",
-        "Label": ""
-      },
-      "IsPartOf": {
-        "TermURL": "cogatlas:tsk_4a57abb949bcd",
-        "Label": ""
-      }
     }
   },
   "group": {
