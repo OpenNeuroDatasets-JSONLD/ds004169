@@ -38,6 +38,12 @@
       "2": "sagittal"
     }
   },
+  "ses01_dwi_acq": {
+    "Description": "Diffusion acquisition at session 1"
+    },
+  "ses02_dwi_acq": {
+    "Description": "Diffusion acquisition at session 2"
+    },
   "nback_seq": {
     "Description": "Stimulus presentation time for the nback task. During data acqusition for the 12 year old  participants, the nback stimulus presentation time was increased as younger participants had difficulty with the 1 sec presentation",
     "Levels": {
